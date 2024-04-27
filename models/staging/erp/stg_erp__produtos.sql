@@ -13,7 +13,7 @@ with
             , case
                 when DISCONTINUED = 0 then false
                 when DISCONTINUED = 1 then true
-            end as id_discontinuado
+            end as is_discontinuado
         from {{ source('erp', 'product') }}
     )
 
