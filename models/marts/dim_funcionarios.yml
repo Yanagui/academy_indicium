@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: dim_funcionarios
+    description: >
+      Tabela dimensão dos funcionarios da Northwind.
+    columns:
+      - name: PK_FUNCIONARIO
+        description: Chave primária da dimensão de funcionarios.
+        tests:
+          - unique
+          - not_null
+      - name: NM_FUNCIONARIO
+        description: bla
+      - name: CARGO_FUNCIONARIO
+        description: bla
+      - name: DT_NASCIMENTO_FUNCIONARIO
+        description: bla
+      - name: DT_CONTRATACAO
+        description: bla
+      - name: NM_GERENTE
+        description: bla
+      - name: CARGO_GERENTE
+        description: bla
