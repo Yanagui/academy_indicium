@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: fct_vendas
+    description: >
+      Tabela com as vendas da Northwind. 
+    columns:
+      - name: sk_vendas
+        description: Chave primária da fatos de vendas.
+        tests:
+          - unique
+          - not_null              
+      - name: FK_PRODUTO
+        description: bla
+      - name: FK_FUNCIONARIO
+        description: bla
+      - name: FK_CLIENTE
+        description: bla
+      - name: FK_TRANSPORTADORA
+        description: bla
+      - name: NUMERO_NOTA_FISCAL
+        description: bla
+      - name: DESCONTO_PERC
+        description: bla
+      - name: PRECO_DA_UNIDADE
+        description: bla
+      - name: QUANTIDADE
+        description: bla
+      - name: DATA_DO_PEDIDO
+        description: bla
+      - name: DATA_DO_ENVIO
+        description: bla
+      - name: DATA_REQUERIDA_ENTREGA
+        description: bla
+      - name: NM_DESTINATARIO
+        description: bla
+      - name: CIDADE_DESTINATARIO
+        description: bla
+      - name: REGIAO_DESTINATARIO
+        description: bla
+      - name: PAIS_DESTINATARIO
+        description: bla
+      - name: NM_PRODUTO
+        description: bla
+      - name: IS_DISCONTINUADO
+        description: bla
+      - name: NM_CATEGORIA
+        description: bla
+      - name: DESCRICAO_CATEGORIA
+        description: bla
+      - name: NM_FORNECEDOR
+        description: bla
+      - name: CIDADE_FORNECEDOR
+        description: bla
+      - name: PAIS_FORNECEDOR
+        description: bla
+      - name: NM_FUNCIONARIO
+        description: bla
+      - name: CARGO_FUNCIONARIO
+        description: bla
+      - name: DT_CONTRATACAO
+        description: bla
+      - name: NM_GERENTE
+        description: bla
+      - name: VALOR_BRUTO
+        description: bla
+      - name: VALOR_LIQUIDO
+        description: bla
+      - name: SENIORIDADE_EM_ANOS
+        description: bla
+      - name: FRETE_RATEADO
+        description: bla
+  
