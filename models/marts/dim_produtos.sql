@@ -28,7 +28,7 @@ with
             , categorias.DESCRICAO_CATEGORIA
             , fornecedores.NM_FORNECEDOR
             , fornecedores.CIDADE_FORNECEDOR
-            , fornecedores.PAIS_FORNENCEDOR
+            , fornecedores.PAIS_FORNECEDOR
         from produtos
         left join categorias on produtos.fk_categoria = categorias.pk_categoria
         left join fornecedores on produtos.fk_fornecedor = fornecedores.pk_fornecedor
