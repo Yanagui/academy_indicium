@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: erp
+    description: Fonte de dados do ERP da Northwind
     database: fea24_4
     schema: raw_northwind
     tables:
@@ -21,3 +22,5 @@ sources:
               - unique              
               - not_null
       - name: employee
+      - name: customer
+      - name: shipper
